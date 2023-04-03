@@ -20,4 +20,4 @@ tempCode=list()#L자리 암호
         #         others+=1
         # if aeiou>=1 and others>=2 :
         #     print(''.join(tempCode))#결과 출력
-       
+       # list, len

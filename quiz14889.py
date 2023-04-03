@@ -8,4 +8,5 @@ table = list()
 for row in range(N):
     table.append(list(input().strip().split(' ')))
 
+#combination, 차: 절댓값 
 

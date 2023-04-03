@@ -8,6 +8,6 @@ for i in range(9):
 
 for i in range(9):
     for j in range(9):
-        if(sudoku[i][j]==0):#0인 칸 채우기
+        if(sudoku[i][j]==0):#0인 칸 채우기-> 리스트에 저장
             
 
