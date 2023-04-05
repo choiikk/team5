@@ -6,7 +6,7 @@ input=sys.stdin.readline
 M, N = map(int,input().split(' '))
 
 #보드 B W 입력
-board =list()
+board =list() 
 for i in range(M):
     board.append(list(input().strip()))
 

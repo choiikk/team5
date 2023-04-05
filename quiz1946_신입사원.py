@@ -4,7 +4,7 @@ input = sys.stdin.readline
 
 T = int(input())
 testCases=list() #테스트 케이스들의 리스트
-for i in range(T):
+for i in range(T): 
     N = int(input())
     tempCase=list()#각 테스트 케이스
     for j in range(N):

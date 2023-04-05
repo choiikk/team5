@@ -2,7 +2,7 @@
 from queue import PriorityQueue
 import sys
 input = sys.stdin.readline 
-N = int(input())
+N = int(input()) 
 lectures=list()
 
 for i in range(N):

@@ -2,7 +2,7 @@
 from queue import PriorityQueue
 import sys
 input = sys.stdin.readline
-
+ 
 #입력
 N, K = map(int, input().split(" "))
 print(N, K)

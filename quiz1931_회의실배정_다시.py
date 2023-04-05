@@ -4,7 +4,7 @@ input = sys.stdin.readline
 #가장 여러개(max) 연결(중간에 시간 뜰 수도 있음) 될 수 있는 회의들의 경우를 찾는다. 
 N = int(input())
 meetings = list()
-for i in range(N):
+for i in range(N): 
     S, T = map(int, input().split(' '))
     meetings.append((T,S))#끝나는 시간 기준으로 오름차순 정렬
 meetings.sort() 
