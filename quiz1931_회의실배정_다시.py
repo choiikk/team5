@@ -10,7 +10,7 @@ for i in range(N):
 meetings.sort() 
 
 max=0
-while len(meetings):
+while len(meetings): #시간초과가 뜨면 while문을 돌리면서 규칙이 있어서 반복을 (빨리끝내거나) 줄일수있는지 본다
     possibleMeetings =list()#(겹치지 않아서) 이 회의실에서 가능한 회의 구성
     possibleMeetings.append(meetings.pop(0))
     for nextMeeting in meetings:

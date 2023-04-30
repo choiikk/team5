@@ -5,7 +5,7 @@ from queue import PriorityQueue
 
 #입력
 N = int(input()) 
-cards=PriorityQueue()#누적합을 구하는 문제이므로, 작은수부터 누적해서 더하는 것이 결과가 최소값이 된다. (내림차순)
+cards=PriorityQueue()#누적합을 구하는 문제이므로, 작은수부터 누적해서 더하는 것이 결과가 최소값이 된다. (오름차순)
 for i in range(N):
     cards.put(int(input()))
 
